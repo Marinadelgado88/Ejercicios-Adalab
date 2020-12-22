@@ -11,20 +11,22 @@ box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Semi-bold 600 italic;
 }
-.item{
-  color: #cc212a;
-  display: block;  
-  font-family: Semi-bold 600 italic;
 
+.item{
+  
+    display: block;  
+    color: #cc212a;
 }
+
 /* FOOTER*/
 
 .footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    border-top: 3px red;
+    border-top: 3px #cc212a solid;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,7 +35,7 @@ box-sizing: border-box;
 .logo{
     width: 60px;
     height: 60px;
-    background-color: red;
+    background-color: #cc212a;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -47,4 +49,18 @@ position: relative;
 top: -20px;
 
 
+}
+
+@media all and (min-width: 768px) {
+.footer {
+flex-direction: row-reverse;
+justify-content: space-between;
+padding: 20px;
+
+}
+
+.logo{
+transform: translate (0, 0);
+
+}
 }

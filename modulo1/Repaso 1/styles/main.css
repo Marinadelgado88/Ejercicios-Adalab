@@ -1,0 +1,50 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+/* MAIN*/
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+  color: #cc212a;
+  display: block;  
+  font-family: Semi-bold 600 italic;
+
+}
+/* FOOTER*/
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 3px red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transform: translate(0,-50%);
+}
+
+.copy{
+position: relative;
+top: -20px;
+
+
+}

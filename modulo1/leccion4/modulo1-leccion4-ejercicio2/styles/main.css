@@ -1,0 +1,17 @@
+.container{
+box-sizing: border-box;
+border: solid pink 10px;
+background-color: plum;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 100%;
+}
+
+
+.item{
+border: pink solid 2px;
+width: 200px;
+height: 100px;
+
+}

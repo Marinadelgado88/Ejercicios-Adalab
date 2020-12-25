@@ -1,0 +1,48 @@
+/*Hacer un listado de noticias con imagen, título y párrafo de contenido
+Meterlas en un contenedor flex y hacer que se distribuyan en dos columnas
+Elegir una noticia, por ejemplo, la última, y ponerla como destacada, en primer lugar y ocupando las dos columnas*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  
+}
+.item {
+  box-sizing: border-box;
+  flex-direction: row;
+  order: 1;
+  border: khaki solid;
+}
+.item-1 {
+  width: 50%;
+}
+
+.item-2 {
+  width: 50%;
+}
+
+.item-3 {
+  width: 50%;
+}
+
+.item-4 {
+  width: 50%;
+}
+
+.item-5 {
+  width: 100%;
+  order: -1;
+}
+.image {
+  background-color: rgb(180, 113, 180);
+  display: block;
+  height: 30%;
+}

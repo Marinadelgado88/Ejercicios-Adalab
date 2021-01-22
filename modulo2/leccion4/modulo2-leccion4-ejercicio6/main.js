@@ -1,11 +1,12 @@
 'use strict';
 
 function getEl (a){
-    return console.log(document.querySelector(a));
+    const clas = document.querySelector(a);
+    return clas;
 }
+const clasName=".primer";
+const invento= getEl  (clasName);
 
-const titleEl = getEl('.title');
-const parrafoEl = getEl('.parrafo');
 
-if (titleEl === '')
-console.error(`No existe ningún elemento con clase, id o tag llamado {.title}`)
+if (invento === null){
+    console.log(`No existe ningún elemento con clase, id o tag llamado ${clasName}`);}

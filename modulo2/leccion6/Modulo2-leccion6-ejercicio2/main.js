@@ -8,7 +8,10 @@ adalaber1.age = 34;
 adalaber1.profesion = 'periodista';
 adalaber1.run = running => `${running}`;
 
+adalaber1.runMarathon = (distance) => {
+    console.log(`Estoy corriendo un maratón de ${distance} kilómetros`);
+}
+adalaber1.runMarathon (50);
 
-console.log(adalaber1.run("Estoy corriendo"));
 
-infoAdalaber.innerHTML = `Mi nombre es ${adalaber1.name} tengo ${adalaber1.age} años y soy ${adalaber1.profesion}.`;
+//infoAdalaber.innerHTML = `Mi nombre es ${adalaber1.name} tengo ${adalaber1.age} años y soy ${adalaber1.profesion}.`;

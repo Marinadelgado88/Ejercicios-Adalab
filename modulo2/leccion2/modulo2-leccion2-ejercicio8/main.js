@@ -9,7 +9,14 @@ const thirdDogName = 'Lana';
 
 const presentation= `My dog is ${firstDogImage} and its name is ${firstDogName}`;
 
+const mainWelcome= document.querySelector ('.main');
+mainWelcome.innerHTML = `My dog is ${firstDogImage} and its name is ${firstDogName}`;
+console.log(mainWelcome);
+
 const htmlToShow= `<p> ${presentation} </p>`;
 
 const content = document.getElementById('content');
-//content.innerHTML= htmlToShow;
+//content.innerHTML= htmlTShow;
+
+const happyBday = document.querySelector('.main');
+happyBday.innerHTML = `Feliz cumpleaños`; 

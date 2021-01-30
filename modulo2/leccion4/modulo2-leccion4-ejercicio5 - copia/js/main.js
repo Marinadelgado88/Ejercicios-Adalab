@@ -9,7 +9,7 @@ const button = document.querySelector('.button');
 const valueName = document.querySelector('.name');
 
 function handleName(){
-console.log ('Hola ' +  valueName.value) ;
+console.log ('Hola' + valueName.value) ;
 
 }
 

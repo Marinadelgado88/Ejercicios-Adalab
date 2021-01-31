@@ -1,13 +1,10 @@
-const tasks = [
-    { name: 'Recoger setas en el campo', completed: true },
-    { name: 'Comprar pilas', completed: true },
-    { name: 'Poner una lavadora de blancos', completed: true },
-    {
-      name: 'Aprender cómo se realizan las peticiones al servidor en JavaScript',
-      completed: false
-    }
-  ];
-
-  const tasks.name = document.querySelector('.task1')
-
-
+'use strict';
+const numbers =[];
+function get100Numbers (number){
+  for (let i = 0; i < 100; i++) {
+    numbers.push(number+=1);
+   console.log(get100Numbers);
+  }
+}
+get100Numbers(Number());
+console.log(numbers);

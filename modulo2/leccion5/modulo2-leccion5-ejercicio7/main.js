@@ -1,6 +1,9 @@
-"use strict"
-const button =document.querySelector (".button");
-function changeColor(){
-    button.classList.toggle("blue");
+'use strict';
+const btn = document.querySelector('.button');
+
+function handleColor() {
+  btn.classList.toggle('blue');
+  btn.classList.add('form');
 }
-button.addEventListener("click", changeColor);
+
+btn.addEventListener('click', handleColor);

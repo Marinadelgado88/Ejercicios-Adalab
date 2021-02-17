@@ -1,0 +1,33 @@
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.App-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.App-paragraph{
+  width: 50%;
+
+}
+.App-footer{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 170px;
+
+}
+.paragraph{
+  margin-right: 230px;
+}
+.App-heart{
+  color: red;
+}

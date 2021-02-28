@@ -1,0 +1,12 @@
+.contenedor {
+  display: flex;
+  flex-direction: row;
+}
+.contenedorI {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.contenedorD {
+  justify-content: flex-end;
+  align-items: flex-start;
+}

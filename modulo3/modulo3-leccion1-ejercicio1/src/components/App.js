@@ -1,10 +1,13 @@
-import React from "react";
-import MediaCard from "./MediaCard";
+import MediaCard from './MediaCard';
+import MediaCard2 from './MediaCard2';
 
-class App extends React.Component {
-    render() {
-        return <MediaCard name="sofia" />;
-    }
+function App() {
+  return (
+    <div>
+      <MediaCard name='Joaqui' />
+      <MediaCard2 name='Joaqui' />;
+    </div>
+  );
 }
 
 export default App;
